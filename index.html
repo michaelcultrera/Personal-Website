@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Cultrera</title>
+    <link rel="icon" href="Images/MC Logo (1).png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+  <div id="bgandtext">
+    <img id="mainimage" src="Images/background.jpeg"> 
+    <div id="dropdown">
+      <img id="dropbtn" src="Images/logomain.png" alt="nav">  
+      <div id="dropdown-content">
+        <a href="https://github.com/michaelcultrera" target="_blank"><img id="gitlogo" src="Images/gitlogo.png"></a>
+        <a href="https://www.linkedin.com/in/michael-cultrera-5891ab1a1/" target="_blank"><img id="linkedlogo" src="Images/linkedlogo.jpeg"></a>
+        <a href="#"><img id="maillogo" src="Images/maillogo.png"></a>
+      </div>
+    </div>
+    <h3 id="maintext">Hi, I'm Michael.</h3>
+    <img id="avatar" src="Images/avatar.jpeg">
+    <ul id="resumelink"><a style="color:#fff0d6;" href="Images/Resume.pdf" target="_blank" >Resume</a></ul>
+    <ul id="projectslink"><a style="color:#fff0d6;" href="#persproj" >Projects</a></ul>
+    <ul id="contactlink"><a style="color:#fff0d6;" href="#" >Contact</a></ul>
+  </div>
+  <div id="rowsetup" style="padding-bottom: 50px">
+    <div id="intro">
+      <h3 class="subheadings" style="padding-bottom: 10px">Hello!</h3>
+      <h3 class="regtext" >My name is Michael Cultrera and I am a computer science major, studying at Ontario Tech University. I am currently searching for an internship position to gain work place experience.</h3>
+    </div>
+    <div id="intropics">
+      <div><img id="ontech" src="Images/ontech_logo.png"></div>
+      <div><img id="laptop" src="Images/laptop.jpeg"></div> 
+    </div>
+  </div>
+  <h3 class="subheadings" style="text-align: center">Personal Projects</h3>
+  <div id="recipepics">
+    <img id="rpic1" src="Images/recipe1.png">
+    <img id="rpic2" src="Images/recipe2.png">
+  </div>
+  <div>
+    <h3 class="portheader">Recipes Application</h3>
+    <h3 class="regtext" id=""style="text-align: center; font-weight: bold;">Flutter / Dart / Firebase / Rapid API</h3>
+    <h3 class="portdesc">
+      A mobile application allows users to search for recipes using Rapid API, as well record personal recipes using Firestore database.
+    </h3>
+  </div>
+  <div>
+    <h3 class="divider">. . .</h3>
+  </div>
+  <div id="contactsection">
+    <div id="rectangle"></div>
+    <h3 class="subheadings" id="contactheader">Contact me!</h3>
+    <h3 class="regtext" id="contactinfo">For any inquiries feel free to send me an email below!</h3>
+    <form id="contactform" method="post" name="myemailform" data-netlify="true">
+      <div id="inputgroup">
+        <input id="nameinput" type="text" name="name" placeholder="Your name">
+        <input id="emailinput" type="text" name="email" placeholder="Your email">
+        <textarea id="messageinput" name="message" placeholder="Your message"></textarea>
+      <input id="submitbtn" type="submit" value="Send Email">
+      </div>
+      
+      </form>
+  </div>
+  
+  <script src="index.js"></script>
+  <script> src="form-to-email.php"</script>
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script>
+    $("#dropdown").click(function(e){
+      e.stopPropagation();
+    });
+
+    $(function(){
+    $("#dropbtn").click(function(){
+      $("#dropdown-content").slideDown("slow",function(){
+        //Animation complete
+      })
+    });
+      $(document).click(function(){
+      $("#dropdown-content").hide();
+    });
+  });
+  
+  </script>
+  
+</body>
+</html>
