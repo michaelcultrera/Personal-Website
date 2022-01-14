@@ -1,31 +1,26 @@
-/* body {
-    background-image: url('Images/background.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-  } */
-
-@font-face{
+@font-face {
     font-family: myFont;
     src: url(fonts/Nunito-VariableFont_wght.ttf)
 }
-@font-face{
+
+@font-face {
     font-family: myFontItalic;
     src: url(fonts/Nunito-Italic-VariableFont_wght.ttf)
 }
 
-.subheadings{
+.subheadings {
     font-family: myFontItalic;
     font-size: 40px;
     color: #feeccc;
 }
 
-.regtext{
+.regtext {
     font-family: myFont;
     font-size: 20px;
     color: rgb(143, 160, 239);
 }
 
-.portheader{
+.portheader {
     padding-top: 10px;
     text-align: center;
     font-family: myFont;
@@ -34,7 +29,7 @@
     color: rgb(143, 160, 239);
 }
 
-.portdesc{
+.portdesc {
     text-align: center;
     font-family: myFont;
     font-size: 20px;
@@ -42,33 +37,33 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    padding-top: 15px; 
+    padding-top: 15px;
 }
 
-.divider{
+.divider {
     font-size: 70px;
     color: #fff0d6;
     text-align: center;
 }
 
-#contactsection{
+#contactsection {
     position: relative;
 }
 
-#contactheader{
+#contactheader {
     width: 100%;
     position: absolute;
     text-align: center;
 }
 
-#contactinfo{
+#contactinfo {
     width: 100%;
     position: absolute;
     text-align: center;
     padding-top: 50px;
 }
 
-#rectangle{
+#rectangle {
     position: absolute;
     width: 100%;
     height: 370px;
@@ -76,7 +71,7 @@
     opacity: 0.5;
 }
 
-#contactform{
+#contactform {
     position: absolute;
     text-align: center;
     width: 100%;
@@ -84,317 +79,364 @@
     padding-top: 110px;
 }
 
-#inputgroup{
+#inputgroup {
     position: absolute;
     width: 100%;
 }
 
-#nameinput{
+#nameinput {
+    font-family: myFont;
     display: block;
     margin: auto;
+    width: 25%;
     border-radius: 10px;
+    border: none;
+    background-color: #fff0d6;
 }
 
-#emailinput{
+#emailinput {
+    font-family: myFont;
     display: block;
+    margin: auto;
+    width: 25%;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff0d6;
+}
+
+#messageinput {
+    font-family: myFont;
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: 90px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff0d6;
+}
+
+::placeholder {
+    color: #7e7e7e;
+    opacity: 1;
+    padding-left: 2px;
+}
+
+#submitbtn {
+    font-family: myFont;
     margin: auto;
     margin-top: 20px;
     border-radius: 10px;
+    border: none;
+    background-color: rgb(143, 160, 239);
 }
 
-#messageinput{
-    display: block;
-    margin: auto;
-    margin-top: 20px;
-    border-radius: 10px;
-}
-
-#submitbtn{
-    margin: auto;
-    margin-top: 20px;
-}
-
-#dropbtn {
+#mainlogo {
     width: auto;
-    height: 150px;
+    height: 80px;
     border: none;
     cursor: pointer;
-  }
+}
 
-#dropbtn:hover{
+#mainlogo:hover {
     filter: invert(10%);
 }
 
-  #dropdown-content {
-    left: 37%;
-    top: 70%;
+#dropdown-content {
+    left: 18px;
+    top: 87px;
     border-radius: 15px;
     position: absolute;
     background-color: #fff0d6;
-    width: 30%;
+    width: 60px;
     z-index: 1;
     display: none;
-  }
-
-/* .show {display:block;} */
-
-/* logo with dropdown contents */
-#dropdown{
-    position: absolute;
-    top: 0.001%;
-    left: 3%;
-    /* padding-left: 2%; */
 }
 
-#gitlogo{
-    width: auto;
+/* logo with dropdown contents */
+#dropdown {
+    position: absolute;
+    top: 3%;
+    left: 8%;
+}
+
+#gitlogo {
+    display: block;
+    margin: auto;
     height: 45px;
     padding-top: 3px;
 }
 
-#linkedlogo{
-    width: auto;
+#linkedlogo {
+    display: block;
+    margin: auto;
     height: 45px;
     padding-top: 4px;
     padding-bottom: 4px;
 }
 
-#maillogo{
-    width: auto;
+#maillogo {
+    display: block;
+    margin: auto;
     height: 45px;
     padding-bottom: 4px;
 }
 
-#resumelink{
+#resumelink {
+    font-size: 15px;
     font-family: myFont;
     position: absolute;
     top: 4%;
     right: 5%;
 }
 
-#projectslink{
+#projectslink {
     font-family: myFont;
     position: absolute;
     top: 4%;
     right: 15%;
-    padding-right: 5%; 
+    /* padding-right: 5%; */
+    margin-right: 4%;
 }
 
-#contactlink{
+#contactlink {
     font-family: myFont;
     position: absolute;
     top: 4%;
     right: 30%;
-    padding-right: 5%; 
+    /* padding-right: 5%; */
+    margin-right: 4%;
 }
 
-#avatar{
+#avatar {
     position: absolute;
-    top: 70%; 
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 14%;
 }
 
-#bgandtext{
+#bgandtext {
     position: relative;
     text-align: right;
 }
 
-#mainimage{
+#mainimage {
     max-width: 100%;
     max-height: 100%;
 }
 
-#maintext{
+#maintext {
     font-family: myFontItalic;
     font-size: 15px;
     background: -webkit-linear-gradient(#fff0d6, rgb(120, 142, 236));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: absolute;
-    top: 48%; 
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-#recipepics{
+#persproj {
+    text-align: center;
+}
+
+#recipepics {
     padding-top: 20px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 50%; 
+    width: 50%;
 }
-#rpic1{
+
+#rpic1 {
     flex: 1;
     width: 50%;
     padding-right: 10px;
 }
-#rpic2{
+
+#rpic2 {
     flex: 1;
     width: 50%;
-    /* height: 50%; */
     padding-left: 10px;
 }
 
-#rowsetup{
+#rowsetup {
     display: flex;
     padding-left: 80px;
     padding-right: 80px;
 }
 
-#ontech{
+#ontech {
     width: 220%;
     flex: 1;
 }
 
-#laptop{
+#laptop {
     padding-top: 25px;
     padding-left: 10px;
     width: 75%;
     flex: 1;
 }
 
-#intro{
+#intro {
     flex: 1;
-    /* padding-left: 80px; */
 }
 
-#intropics{
+#intropics {
     padding-top: 10px;
-    /* padding-right: 80px; */
     padding-left: 120px;
     display: flex;
     flex: 1;
     width: 50%;
 }
 
-
-
-html, body {
-    margin: 0; 
+html,
+body {
+    margin: 0;
     padding: 0;
     background-image: url(Images/tiles.png);
-    background-size:contain;
-  }
+    background-size: contain;
+}
 
-  @media only screen and (max-width: 570px) {
-    
-    #intropics{
+@media only screen and (max-width: 570px) {
+    #intropics {
         display: none;
     }
-    #intro{
-      text-align: center;  
+
+    #intro {
+        text-align: center;
     }
 }
 
 @media only screen and (max-width: 630px) {
-    
-    #intropics{
+    #intropics {
         padding-top: 85px;
     }
 }
 
-  @media only screen and (max-width: 768px) {
-    #ontech{
+@media only screen and (max-width: 768px) {
+    #ontech {
         width: 250%;
     }
-    #laptop{ 
+
+    #laptop {
         width: 100%;
     }
-    
-    #intropics{
+
+    #intropics {
         padding-left: 60px;
     }
 }
 
 @media only screen and (max-width: 880px) {
-    #ontech{
+    #ontech {
         width: 250%;
     }
-    #laptop{ 
+
+    #laptop {
         width: 100%;
     }
 }
 
-  @media only screen and (min-width: 420px) {
-    #maintext{
-            font-size: 18px;  
-        }
+@media only screen and (min-width: 420px) {
+    #maintext {
+        font-size: 18px;
     }
-    @media only screen and (min-width: 520px) {
-    #maintext{
-            font-size: 22px;  
-        }
+}
+
+@media only screen and (min-width: 520px) {
+    #maintext {
+        font-size: 22px;
     }
-    @media only screen and (min-width: 620px) {
-    #maintext{
-            font-size: 28px;
-        }
+}
+
+@media only screen and (min-width: 620px) {
+    #maintext {
+        font-size: 28px;
     }
-    @media only screen and (min-width: 720px) {
-    #maintext{
-            font-size: 32px;
-        }
+}
+
+@media only screen and (min-width: 720px) {
+    #maintext {
+        font-size: 32px;
     }
-    @media only screen and (min-width: 820px) {
-    #maintext{
-            font-size: 36px;
-        }
+}
+
+@media only screen and (min-width: 820px) {
+    #maintext {
+        font-size: 36px;
     }
-    @media only screen and (min-width: 920px) {
-    #maintext{
-            font-size: 40px;
-        }
-    }
-    @media only screen and (min-width: 1120px) {
-    #maintext{
-            font-size: 44px;
-        }
-        #ontech{
-            width: 230%;
-        }
-        #laptop{ 
-            width: 70%;
-        }
-    }
-    @media only screen and (min-width: 1320px) {
-    #maintext{
-            font-size: 50px;
-        }
-        #ontech{
-            width: 200%;
-        }
-        #laptop{ 
-            width: 60%;
-        }
-        #intropics{
-            padding-left: 250px;
-        }
-    }
-    @media only screen and (min-width: 1520px) {
-    #maintext{
-            font-size: 56px;
-        }
-    }
-    @media only screen and (min-width: 1720px) {
-    #maintext{
-            font-size: 62px;
-        }
-    }
-    @media only screen and (min-width: 1920px) {
-    #maintext{
-            font-size: 68px;
-        }
-    .subheadings{
-        font-size: 100px;
-    }
-    .regtext{
+}
+
+@media only screen and (min-width: 920px) {
+    #maintext {
         font-size: 40px;
     }
+}
+
+@media only screen and (min-width: 1120px) {
+    #maintext {
+        font-size: 44px;
     }
-    @media only screen and (min-width: 2220px) {
-        #maintext{
-                font-size: 80px;
-            }
-        }
+
+    #ontech {
+        width: 230%;
+    }
+
+    #laptop {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 1320px) {
+    #maintext {
+        font-size: 50px;
+    }
+
+    #ontech {
+        width: 200%;
+    }
+
+    #laptop {
+        width: 60%;
+    }
+
+    #intropics {
+        padding-left: 250px;
+    }
+}
+
+@media only screen and (min-width: 1520px) {
+    #maintext {
+        font-size: 56px;
+    }
+}
+
+@media only screen and (min-width: 1720px) {
+    #maintext {
+        font-size: 62px;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    #maintext {
+        font-size: 68px;
+    }
+
+    .subheadings {
+        font-size: 100px;
+    }
+
+    .regtext {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 2220px) {
+    #maintext {
+        font-size: 80px;
+    }
+}
