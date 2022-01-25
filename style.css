@@ -195,8 +195,7 @@
     font-family: myFont;
     position: absolute;
     top: 4%;
-    right: 15%;
-    /* padding-right: 5%; */
+    right: 30%;
     margin-right: 4%;
 }
 
@@ -204,8 +203,7 @@
     font-family: myFont;
     position: absolute;
     top: 4%;
-    right: 30%;
-    /* padding-right: 5%; */
+    right: 15%;
     margin-right: 4%;
 }
 

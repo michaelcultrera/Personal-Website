@@ -7,7 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Michael Cultrera</title>
   <link rel="icon" href="Images/logomain.jpeg">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/laptop.css">
+  <link rel="stylesheet" href="styles/tablet.css" media="screen and (max-width: 1200px)">
+  <link rel="stylesheet" href="styles/phone.css" media="screen and (max-width: 800px)">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
@@ -30,26 +32,27 @@
     <a id="projectslink" style="color:#fff0d6; text-decoration: none;" href="#persproj">Projects</a>
     <a id="contactlink" style="color:#fff0d6; text-decoration: none;" href="#contactheader">Contact</a>
   </div>
-  <div id="rowsetup" style="padding-bottom: 50px">
+   <div id="introrow">
     <div id="intro">
-      <h3 class="subheadings" style="padding-bottom: 10px">Hello!</h3>
+      <h3 class="subheadings">Hello!</h3>
       <h3 class="regtext">My name is Michael Cultrera and I am a computer science major, studying at Ontario Tech
         University. I am currently searching for an internship position to gain work place experience.</h3>
     </div>
     <div id="intropics">
-      <div><img id="ontech" src="Images/ontech_logo.png"></div>
-      <div><img id="laptop" src="Images/laptop.jpeg"></div>
+      <img id="laptop" src="Images/laptop.png">
+      <img id="ontech" src="Images/ontech_logo.png">
     </div>
   </div>
-  <h3 class="subheadings" id="persproj" style="text-align: center">Personal Projects</h3>
+  <div class="projects">
+    <h3 class="subheadings" id="persproj" style="text-align: center">Personal Projects</h3>
   <div id="recipepics">
     <img id="rpic1" src="Images/recipe1.png">
     <img id="rpic2" src="Images/recipe2.png">
   </div>
   <div>
     <h3 class="portheader">Recipes Application</h3>
-    <h3 class="regtext" id="" style="text-align: center; font-weight: bold;">Flutter / Dart / Firebase / Rapid API</h3>
-    <h3 class="portdesc">
+    <h3 class="regtext portdesc" style="font-weight: bold; font-family: myFontItalic;">Flutter / Dart / Firebase / Rapid API</h3>
+    <h3 class="regtext portdesc">
       A mobile application allows users to search for recipes using Rapid API, as well record personal recipes using
       Firestore database.
     </h3>
@@ -57,6 +60,8 @@
   <div>
     <h3 class="divider">. . .</h3>
   </div>
+  </div>
+  
   <div id="contactsection">
     <div id="rectangle"></div>
     <h3 class="subheadings" id="contactheader">Contact me!</h3>

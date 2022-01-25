@@ -1,0 +1,33 @@
+#introrow{
+    display: block;
+}
+
+#intropics{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#intro{
+    text-align: center;
+    margin: auto;
+    left: initial;
+}
+
+#laptop{
+    width: 200px;
+    top: 0px;
+    right: 0px;
+}
+
+#ontech{
+    left: 20px;
+    top: 0px;
+}
+
+/* #persproj{
+    display: block;
+} */
