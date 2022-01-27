@@ -1,11 +1,11 @@
 @font-face {
     font-family: myFont;
-    src: url(/fonts/Nunito-VariableFont_wght.ttf)
+    src: url(fonts/Nunito-VariableFont_wght.ttf)
 }
 
 @font-face {
     font-family: myFontItalic;
-    src: url(/fonts/Nunito-Italic-VariableFont_wght.ttf)
+    src: url(fonts/Nunito-Italic-VariableFont_wght.ttf)
 }
 
 :root{
@@ -310,6 +310,6 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-image: url(/Images/tiles.png);
+    background-image: url(Images/tiles.png);
     background-size: contain;
 }
