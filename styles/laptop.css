@@ -1,27 +1,15 @@
-/* @font-face {
-    font-family: myFont;
-    src: url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Nunito:wght@200&display=swap")
-}
-
-@font-face {
-    font-family: myFontItalic;
-    src: url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Nunito:wght@200&display=swap")
-} */
-
 :root{
     --beige: #feeccc;
     --lightblue: rgb(143, 160, 239);
 }
 
 .subheadings {
-    /* font-family: myFontItalic; */
     font-style: italic;
     font-size: 60px;
     color: var(--beige);
 }
 
 .regtext {
-    /* font-family: myFont; */
     font-size: 30px;
     color: var(--lightblue);
 }
@@ -29,7 +17,6 @@
 .portheader {
     padding-top: 18px;
     text-align: center;
-    /* font-family: myFont; */
     font-size: 40px;
     font-weight: bold;
     color: var(--beige);
@@ -89,7 +76,6 @@
 }
 
 #nameinput {
-    /* font-family: myFont; */
     display: block;
     height: 40px;
     width: 350px;
@@ -100,7 +86,6 @@
 }
 
 #emailinput {
-    /* font-family: myFont; */
     display: block;
     margin: auto;
     height: 40px;
@@ -112,7 +97,6 @@
 }
 
 #messageinput {
-    /* font-family: myFont; */
     display: block;
     margin: auto;
     width: 400px;
@@ -131,7 +115,6 @@
 }
 
 #submitbtn {
-    /* font-family: myFont; */
     width: 150px;
     height: 40px;
     font-size: 22px;
@@ -195,7 +178,6 @@
 
 #resumelink {
     font-size: 25px;
-    /* font-family: myFont; */
     position: absolute;
     top: 4%;
     right: 5%;
@@ -203,7 +185,6 @@
 
 #projectslink {
     font-size: 25px;
-    /* font-family: myFont; */
     position: absolute;
     top: 4%;
     right: 30%;
@@ -212,7 +193,6 @@
 
 #contactlink {
     font-size: 25px;
-    /* font-family: myFont; */
     position: absolute;
     top: 4%;
     right: 15%;
@@ -238,7 +218,6 @@
 }
 
 #maintext {
-    /* font-family: myFontItalic; */
     font-style: italic;
     font-size: 60px;
     background: -webkit-linear-gradient(var(--beige), var(--lightblue));
@@ -313,6 +292,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Nunito Sans', sans-serif;
-    background-image: url(/Images/tiles.png);
+    background-image: url(Images/tiles.png);
     background-size: contain;
 }
