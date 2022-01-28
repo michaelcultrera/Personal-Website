@@ -58,8 +58,8 @@
     position: absolute;
     width: 100%;
     height: 500px;
-    background-color: black;
-    opacity: 0.5;
+    background-color: transparent;
+    /* opacity: 0; */
 }
 
 #contactform {
@@ -294,4 +294,5 @@ body {
     font-family: 'Nunito Sans', sans-serif;
     background-image: url(Images/tiles.png);
     background-size: contain;
+    background-color: #000024;
 }
