@@ -42,37 +42,38 @@
 
 #contactheader {
     width: 100%;
-    position: absolute;
+    position: relative;
     text-align: center;
     padding-top: 18px;
 }
 
 #contactinfo {
     width: 100%;
-    position: absolute;
+    position: relative;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 10px;
 }
 
 #rectangle {
-    position: absolute;
+    position: relative;
     width: 100%;
-    height: 500px;
-    background-color: transparent;
+    /* height: 500px; */
+    background-color: #000033;
     /* opacity: 0; */
 }
 
 #contactform {
-    position: absolute;
+    position: relative;
     text-align: center;
     width: 100%;
     color: var(--lightblue);
-    padding-top: 170px;
+    padding-top: 30px;
 }
 
 #inputgroup {
-    position: absolute;
+    position: relative;
     width: 100%;
+    padding-bottom: 30px;
 }
 
 #nameinput {
@@ -137,8 +138,7 @@
 }
 
 #dropdown-content {
-    left: 40px;
-    top: 125px;
+    /* top: 65px; */
     border-radius: 15px;
     position: absolute;
     background-color: var(--beige);
@@ -147,11 +147,19 @@
     display: none;
 }
 
+#dropdown-content2{
+    display: none; 
+}
+
 /* logo with dropdown contents */
 #dropdown {
     position: absolute;
-    top: 3%;
-    left: 8%;
+    top: 2%;
+    left: 6%;
+}
+
+#dropdown2{
+    display: none;
 }
 
 #gitlogo {
@@ -177,14 +185,14 @@
 }
 
 #resumelink {
-    font-size: 25px;
+    font-size: 28px;
     position: absolute;
     top: 4%;
     right: 5%;
 }
 
 #projectslink {
-    font-size: 25px;
+    font-size: 28px;
     position: absolute;
     top: 4%;
     right: 30%;
@@ -192,7 +200,7 @@
 }
 
 #contactlink {
-    font-size: 25px;
+    font-size: 28px;
     position: absolute;
     top: 4%;
     right: 15%;

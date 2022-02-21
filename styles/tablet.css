@@ -1,3 +1,7 @@
+#dropdown2{
+    display: none;
+}
+
 #laptop {
     width: 260px;
     top: 50px;
@@ -21,3 +25,19 @@
     width: 100%;
     text-align: center;
 }
+
+#resumelink{
+    font-size: 28px;
+}
+
+#projectslink{
+    font-size: 28px;
+}
+
+#contactlink{
+    font-size: 28px;
+}
+
+/* #dropdown-content2{
+    display: none;
+} */

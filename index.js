@@ -2,15 +2,25 @@
 $("#dropdown").click(function (e) {
   e.stopPropagation();
 });
+$("#dropdown2").click(function (e) {
+  e.stopPropagation();
+});
 
 $(function () {
   $("#dropdown").click(function () {
-    $("#dropdown-content").slideDown("slow", function () {
+    $("#dropdown-content").toggle("slow", function () {
       //Animation complete
     })
   });
   $(document).click(function () {
     $("#dropdown-content").hide();
+  });
+
+  $("#dropdown2").click(function () {
+    $("#dropdown-content2").toggle("slow",function(){});
+  });
+  $(document).click(function () {
+    $("#dropdown-content2").hide();
   });
 
   $("#nameinput").mouseenter(function () {
@@ -49,29 +59,29 @@ $(function () {
 
   $("#resumelink").hover(function () {
     $(this).stop(true, false).animate({
-      fontSize: "17px"
+      fontSize: "30px"
     }, 400);
   }, function () {
     $(this).stop(true, false).animate({
-      fontSize: "15px"
+      fontSize: "28px"
     });
   });
   $("#projectslink").hover(function () {
     $(this).stop(true, false).animate({
-      fontSize: "17px"
+      fontSize: "30px"
     }, 400);
   }, function () {
     $(this).stop(true, false).animate({
-      fontSize: "15px"
+      fontSize: "28px"
     });
   });
   $("#contactlink").hover(function () {
     $(this).stop(true, false).animate({
-      fontSize: "17px"
+      fontSize: "30px"
     }, 400);
   }, function () {
     $(this).stop(true, false).animate({
-      fontSize: "15px"
+      fontSize: "28px"
     });
   });
   $("#submitbtn").hover(function () {

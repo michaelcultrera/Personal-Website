@@ -1,14 +1,37 @@
-#introrow{
-    display: block;
+::placeholder{
+    font-size: 4vw;
 }
 
-#intropics{
+.subheadings {
+    font-size: 8vw;
+}
+
+.regtext {
+    font-size: 4vw;
+}
+
+.introtxt{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.portheader{
+    font-size: 6vw;
+}
+
+.portdesc{
+    margin-left: 30px;
+    margin-right: 30px;
+    width: initial;
+}
+
+#avatar{
+    width: 20%;
+}
+
+#introrow{
     display: block;
-    margin-top: 20px;
-    margin-bottom: 380px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin-bottom: 15vw;
 }
 
 #intro{
@@ -17,17 +40,132 @@
     left: initial;
 }
 
-#laptop{
-    width: 200px;
-    top: 0px;
-    right: 0px;
+#intropics{
+    width: 100%;
+    text-align: center;
 }
 
-#ontech{
-    left: 20px;
-    top: 0px;
+#laptop {
+    float: initial;
+    left: initial;
+    right: initial;
+    top: initial;
+    width: 25vw;
+    margin: auto;
 }
 
-/* #persproj{
-    display: block;
-} */
+#ontech {
+    float: initial;
+    right: initial;
+    left: initial;
+    bottom: initial;
+    top: initial;
+    width: 18vw;
+    margin: auto;
+    padding-left: 20px;
+}
+
+#recipepics {
+    padding-top: 20px;
+    /* display: flex; */
+    margin: auto;
+    width: 80%;
+}
+
+#resumelink{
+    display: none;
+}
+
+#projectslink{
+    display: none;
+}
+
+#contactlink{
+    display: none;
+}
+
+#maintext{
+    font-size: 8vw;
+    text-align: center;
+}
+
+#mainlogo {
+    margin-top: 8px;
+    height: 12vw; 
+}
+
+#nameinput {
+    height: 6vw;
+    width: 80%;
+    max-width: 350px;
+}
+
+#emailinput {
+    height: 6vw;
+    width: 80%;
+    max-width: 350px;
+}
+
+#messageinput {
+    height: 20vw;
+    width: 80%;
+    max-width: 450px;
+}
+
+#submitbtn{
+    font-size: 4vw;
+    width: 25vw;
+}
+
+#contactinfo {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#dropdown2{
+    display: inline-flex;
+    position: absolute;
+    right: 20px;
+    top: 13px;
+}
+
+#burger{
+    position: relative;
+    width: 5vw;
+    height: auto;
+    color: var(--beige);
+    margin-right: 10px;
+}
+
+#bgandtext{
+    display: flex;
+}
+
+#dropdown-content2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 35vw;
+    position: relative;
+    border-radius: 15px;
+    background-color: var(--beige);
+    font-size: 2.5vw;
+    vertical-align: middle;
+}
+
+#projectslink2{
+    position: relative;
+    top: 0.5vw;
+    color: #001d4c;
+}
+
+#contactlink2{
+    position: relative;
+    top: 0.5vw;
+    color: #001d4c;
+}
+
+#resumelink2{
+    position: relative;
+    top: 0.5vw;
+    color: #001d4c;
+}
